@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-//hourglass pattern
+//hourGlass pattern
 void print(int n ){
     for(int i = 1; i<=n; i++){
         char ch = 64+i;
