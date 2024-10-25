@@ -1,6 +1,21 @@
 #include<iostream>
 using namespace std;
 //hourGlass pattern
+/*
+
+Input Format: N = 5
+Result:
+ABCDEFGHI
+ BCDEFGH
+  CDEFG
+   DEF
+    E
+   DEF
+  CDEFG
+ BCDEFGH
+ABCDEFGHI
+
+*/
 void print(int n ){
     for(int i = 1; i<=n; i++){
         char ch = 64+i;
